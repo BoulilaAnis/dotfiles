@@ -1,0 +1,18 @@
+2024-09-11 14:16:27.854 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:337:12)
+2024-09-11 14:16:28.089 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-09-11 14:18:16.932 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:337:12)
+2024-09-11 14:18:17.198 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.

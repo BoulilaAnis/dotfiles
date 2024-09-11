@@ -1,0 +1,27 @@
+2024-09-11 14:16:27.712 [info] Log level: Info
+2024-09-11 14:16:27.712 [info] Validating found git in: "git"
+2024-09-11 14:16:27.712 [info] Using git "2.46.0" from "git"
+2024-09-11 14:18:16.388 [info] Log level: Info
+2024-09-11 14:18:16.388 [info] Validating found git in: "git"
+2024-09-11 14:18:16.388 [info] Using git "2.46.0" from "git"
+2024-09-11 14:18:16.388 [info] > git rev-parse --show-toplevel [14ms]
+2024-09-11 14:18:16.388 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:16.390 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-11 14:18:16.390 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:16.789 [info] > git rev-parse --show-toplevel [394ms]
+2024-09-11 14:18:16.789 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:16.926 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-11 14:18:16.926 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:16.932 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 14:18:16.932 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:16.937 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 14:18:16.937 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-11 14:18:18.339 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-11 14:18:18.339 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

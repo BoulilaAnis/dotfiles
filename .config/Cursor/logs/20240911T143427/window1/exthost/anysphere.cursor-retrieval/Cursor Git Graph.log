@@ -1,0 +1,8 @@
+2024-09-11 14:34:30.990 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-11 14:34:33.449 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-11 14:34:44.355 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-11 14:34:44.355 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-11 14:35:00.175 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/anis/.cursor-tutor/getting_started.md
+2024-09-11 14:36:57.545 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/anis/.cursor-tutor/getting_started.md
+2024-09-11 14:36:57.547 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/anis/.cursor-tutor/getting_started.md
+2024-09-11 14:37:03.979 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/anis/.cursor-tutor/examples/explaining_code.c

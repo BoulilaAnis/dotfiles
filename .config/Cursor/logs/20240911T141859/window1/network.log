@@ -1,0 +1,5 @@
+2024-09-11 14:19:12.747 [error] browser #1: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2024-09-11 14:33:31.694 [error] browser #6: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-09-11 14:33:32.967 [error] browser #7: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-09-11 14:33:34.529 [error] browser #9: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-09-11 14:33:39.032 [error] browser #10: https://marketplace.cursorapi.com/_apis/public/gallery/extensionquery - error POST XHR failed

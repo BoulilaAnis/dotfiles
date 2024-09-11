@@ -1,0 +1,7 @@
+2024-09-11 14:34:30.989 [info] File sync client created: https://api4.cursor.sh
+2024-09-11 14:34:30.989 [info] File sync client created: https://api4.cursor.sh
+2024-09-11 14:34:31.859 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"internal error","code":13,"metadata":{},"details":[]}
+2024-09-11 14:39:33.166 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"internal error","code":13,"metadata":{},"details":[]}
+2024-09-11 14:44:33.052 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"internal error","code":13,"metadata":{},"details":[]}
+2024-09-11 14:49:33.521 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"internal error","code":13,"metadata":{},"details":[]}
+2024-09-11 14:54:32.918 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"internal error","code":13,"metadata":{},"details":[]}

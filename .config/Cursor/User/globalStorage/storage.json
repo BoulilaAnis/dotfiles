@@ -1,0 +1,61 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/anis/.cursor-tutor": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "e592c594c54d69a433c258eccf6bdb7b1fe9b491a2aa3923aa4717f5e24013db",
+    "telemetry.devDeviceId": "2396b07d-8e11-4fb9-b879-ff787166f7c1",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/anis/.cursor-tutor"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#222222",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#f7f1ff",
+            "background": "#222222",
+            "editorBackground": "#222222",
+            "titleBarBackground": "#191919",
+            "activityBarBackground": "#131313",
+            "sideBarBackground": "#191919",
+            "statusBarBackground": "#191919",
+            "statusBarNoFolderBackground": "#191919"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 205,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/anis/.cursor-tutor",
+            "backupPath": "/home/anis/.config/Cursor/Backups/42ba03c9c4863fd25690d96000feebe6",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 20,
+                "width": 1368,
+                "height": 750
+            }
+        },
+        "openedWindows": []
+    }
+}

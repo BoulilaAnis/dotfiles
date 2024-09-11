@@ -1,0 +1,16 @@
+2024-09-11 14:18:59.664 [info] update#setState disabled
+2024-09-11 14:18:59.671 [info] update#ctor - updates are disabled as there is no update URL
+2024-09-11 14:18:59.700 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-09-11 14:18:59.701 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+2024-09-11 14:18:59.703 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:18:59.703 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:19:01.321 [error] vscode-file: Refused to load resource /tmp/.mount_cursorxeTTXD/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursorxeTTXD/resources/app/extensions/theme-seti/icons/seti.woff)
+2024-09-11 14:33:43.216 [error] [storage state.vscdb] open(): Unable to open DB due to Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:33:43.217 [error] [storage state.vscdb] open(): Unable to use backup due to Error: ENOENT: no such file or directory, unlink '/home/anis/.config/Code/User/globalStorage/state.vscdb'
+2024-09-11 14:33:43.218 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-09-11 14:33:43.218 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+2024-09-11 14:33:43.219 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:33:43.219 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:34:25.242 [info] Extension host with pid 12618 exited with code: 0, signal: unknown.
+2024-09-11 14:34:25.264 [info] Extension host with pid 12593 exited with code: 0, signal: unknown.
+2024-09-11 14:34:25.269 [error] Error: ENOENT: no such file or directory, unlink '/home/anis/.config/Code/User/globalStorage/state.vscdb'

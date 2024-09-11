@@ -1,0 +1,224 @@
+2024-09-11 14:19:03.093 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:337:12)
+2024-09-11 14:19:03.355 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-09-11 14:19:54.949 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:54.957 [info] Creating merkle client.
+2024-09-11 14:19:54.957 [info] Done creating merkle client.
+2024-09-11 14:19:54.957 [info] Doing a startup handshake.
+2024-09-11 14:19:55.023 [info] Finished initializing merkle tree in 66.81911699997727 ms.
+2024-09-11 14:19:55.024 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:55.030 [info] Handshake start
+2024-09-11 14:19:55.034 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/anis/.config/Cursor/User/workspaceStorage/bba8d6e9e69aeb4ddb578a08a4c3525a/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-09-11 14:19:55.282 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:55.287 [info] Creating merkle client.
+2024-09-11 14:19:55.287 [info] Done creating merkle client.
+2024-09-11 14:19:55.287 [info] Doing a startup handshake.
+2024-09-11 14:19:55.287 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:55.344 [info] Finished initializing merkle tree in 57.25751899997704 ms.
+2024-09-11 14:19:55.355 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:55.356 [info] Handshake start
+2024-09-11 14:19:55.626 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:55.627 [info] Creating merkle client.
+2024-09-11 14:19:55.627 [info] Done creating merkle client.
+2024-09-11 14:19:55.627 [info] Doing a startup handshake.
+2024-09-11 14:19:55.627 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:55.678 [info] Finished initializing merkle tree in 50.9053230000427 ms.
+2024-09-11 14:19:55.678 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:55.679 [info] Handshake start
+2024-09-11 14:19:56.314 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:56.316 [info] Creating merkle client.
+2024-09-11 14:19:56.316 [info] Done creating merkle client.
+2024-09-11 14:19:56.316 [info] Doing a startup handshake.
+2024-09-11 14:19:56.316 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:56.366 [info] Finished initializing merkle tree in 50.6333750000922 ms.
+2024-09-11 14:19:56.367 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:56.368 [info] Handshake start
+2024-09-11 14:19:56.654 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:56.656 [info] Creating merkle client.
+2024-09-11 14:19:56.656 [info] Done creating merkle client.
+2024-09-11 14:19:56.656 [info] Doing a startup handshake.
+2024-09-11 14:19:56.656 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:56.711 [info] Finished initializing merkle tree in 55.03842200001236 ms.
+2024-09-11 14:19:56.711 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:56.712 [info] Handshake start
+2024-09-11 14:19:56.997 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:56.998 [info] Creating merkle client.
+2024-09-11 14:19:56.998 [info] Done creating merkle client.
+2024-09-11 14:19:56.998 [info] Doing a startup handshake.
+2024-09-11 14:19:56.998 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:57.067 [info] Finished initializing merkle tree in 68.91990000009537 ms.
+2024-09-11 14:19:57.067 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:57.068 [info] Handshake start
+2024-09-11 14:19:57.199 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:57.202 [info] Creating merkle client.
+2024-09-11 14:19:57.202 [info] Done creating merkle client.
+2024-09-11 14:19:57.202 [info] Doing a startup handshake.
+2024-09-11 14:19:57.202 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:57.250 [info] Finished initializing merkle tree in 48.592516999924555 ms.
+2024-09-11 14:19:57.261 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:57.262 [info] Handshake start
+2024-09-11 14:19:57.891 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:57.892 [info] Creating merkle client.
+2024-09-11 14:19:57.892 [info] Done creating merkle client.
+2024-09-11 14:19:57.892 [info] Doing a startup handshake.
+2024-09-11 14:19:57.892 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:57.954 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:57.955 [info] Creating merkle client.
+2024-09-11 14:19:57.955 [info] Done creating merkle client.
+2024-09-11 14:19:57.955 [info] Doing a startup handshake.
+2024-09-11 14:19:58.011 [info] Finished initializing merkle tree in 118.81820999993943 ms.
+2024-09-11 14:19:58.011 [info] Finished initializing merkle tree in 56.577810000046156 ms.
+2024-09-11 14:19:58.012 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:58.012 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:58.013 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:58.014 [info] Handshake start
+2024-09-11 14:19:58.084 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:58.086 [info] Creating merkle client.
+2024-09-11 14:19:58.086 [info] Done creating merkle client.
+2024-09-11 14:19:58.086 [info] Doing a startup handshake.
+2024-09-11 14:19:58.086 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:58.130 [info] Finished initializing merkle tree in 43.779610999976285 ms.
+2024-09-11 14:19:58.146 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:58.147 [info] Handshake start
+2024-09-11 14:19:58.413 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:58.416 [info] Creating merkle client.
+2024-09-11 14:19:58.416 [info] Done creating merkle client.
+2024-09-11 14:19:58.416 [info] Doing a startup handshake.
+2024-09-11 14:19:58.416 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:58.468 [info] Finished initializing merkle tree in 52.82938999996986 ms.
+2024-09-11 14:19:58.469 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:58.470 [info] Handshake start
+2024-09-11 14:19:58.790 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:58.791 [info] Creating merkle client.
+2024-09-11 14:19:58.791 [info] Done creating merkle client.
+2024-09-11 14:19:58.791 [info] Doing a startup handshake.
+2024-09-11 14:19:58.791 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:58.837 [info] Finished initializing merkle tree in 46.411037000012584 ms.
+2024-09-11 14:19:58.838 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:58.839 [info] Handshake start
+2024-09-11 14:19:58.989 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:58.991 [info] Creating merkle client.
+2024-09-11 14:19:58.991 [info] Done creating merkle client.
+2024-09-11 14:19:58.991 [info] Doing a startup handshake.
+2024-09-11 14:19:58.991 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:59.041 [info] Finished initializing merkle tree in 50.25188200001139 ms.
+2024-09-11 14:19:59.043 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:59.044 [info] Handshake start
+2024-09-11 14:19:59.224 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:59.225 [info] Creating merkle client.
+2024-09-11 14:19:59.225 [info] Done creating merkle client.
+2024-09-11 14:19:59.225 [info] Doing a startup handshake.
+2024-09-11 14:19:59.225 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:59.297 [info] Finished initializing merkle tree in 72.23764099995606 ms.
+2024-09-11 14:19:59.325 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:59.326 [info] Handshake start
+2024-09-11 14:19:59.407 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:59.409 [info] Creating merkle client.
+2024-09-11 14:19:59.409 [info] Done creating merkle client.
+2024-09-11 14:19:59.409 [info] Doing a startup handshake.
+2024-09-11 14:19:59.409 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:59.458 [info] Finished initializing merkle tree in 49.03293200000189 ms.
+2024-09-11 14:19:59.459 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:59.460 [info] Handshake start
+2024-09-11 14:19:59.628 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:59.629 [info] Creating merkle client.
+2024-09-11 14:19:59.629 [info] Done creating merkle client.
+2024-09-11 14:19:59.629 [info] Doing a startup handshake.
+2024-09-11 14:19:59.629 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:59.684 [info] Finished initializing merkle tree in 55.403699000016786 ms.
+2024-09-11 14:19:59.686 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:59.687 [info] Handshake start
+2024-09-11 14:19:59.957 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:19:59.959 [info] Creating merkle client.
+2024-09-11 14:19:59.959 [info] Done creating merkle client.
+2024-09-11 14:19:59.959 [info] Doing a startup handshake.
+2024-09-11 14:19:59.960 [info] Indexing job successfully done or aborted.
+2024-09-11 14:19:59.973 [info] Finished initializing merkle tree in 14.111304000020027 ms.
+2024-09-11 14:19:59.984 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:19:59.985 [info] Handshake start
+2024-09-11 14:20:00.273 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:00.275 [info] Creating merkle client.
+2024-09-11 14:20:00.275 [info] Done creating merkle client.
+2024-09-11 14:20:00.275 [info] Doing a startup handshake.
+2024-09-11 14:20:00.275 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:00.287 [info] Finished initializing merkle tree in 12.555889000068419 ms.
+2024-09-11 14:20:00.288 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:00.289 [info] Handshake start
+2024-09-11 14:20:00.957 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:00.958 [info] Creating merkle client.
+2024-09-11 14:20:00.958 [info] Done creating merkle client.
+2024-09-11 14:20:00.958 [info] Doing a startup handshake.
+2024-09-11 14:20:00.958 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:00.968 [info] Finished initializing merkle tree in 10.14246500004083 ms.
+2024-09-11 14:20:00.968 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:00.969 [info] Handshake start
+2024-09-11 14:20:01.151 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:01.154 [info] Creating merkle client.
+2024-09-11 14:20:01.154 [info] Done creating merkle client.
+2024-09-11 14:20:01.154 [info] Doing a startup handshake.
+2024-09-11 14:20:01.154 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:01.168 [info] Finished initializing merkle tree in 14.603603999945335 ms.
+2024-09-11 14:20:01.169 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:01.170 [info] Handshake start
+2024-09-11 14:20:01.344 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:01.346 [info] Creating merkle client.
+2024-09-11 14:20:01.346 [info] Done creating merkle client.
+2024-09-11 14:20:01.346 [info] Doing a startup handshake.
+2024-09-11 14:20:01.346 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:01.364 [info] Finished initializing merkle tree in 18.97545100003481 ms.
+2024-09-11 14:20:01.365 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:01.366 [info] Handshake start
+2024-09-11 14:20:01.949 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:01.950 [info] Creating merkle client.
+2024-09-11 14:20:01.950 [info] Done creating merkle client.
+2024-09-11 14:20:01.950 [info] Doing a startup handshake.
+2024-09-11 14:20:01.950 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:01.961 [info] Finished initializing merkle tree in 10.730015000095591 ms.
+2024-09-11 14:20:01.971 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:01.972 [info] Handshake start
+2024-09-11 14:20:01.986 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:20:01.987 [info] Creating merkle client.
+2024-09-11 14:20:01.987 [info] Done creating merkle client.
+2024-09-11 14:20:01.987 [info] Doing a startup handshake.
+2024-09-11 14:20:01.987 [info] Indexing job successfully done or aborted.
+2024-09-11 14:20:01.997 [info] Finished initializing merkle tree in 9.546617000014521 ms.
+2024-09-11 14:20:01.997 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:20:01.998 [info] Handshake start
+2024-09-11 14:20:05.999 [info] Handshake start
+2024-09-11 14:20:14.000 [info] Handshake start
+2024-09-11 14:20:30.001 [info] Handshake start
+2024-09-11 14:21:02.003 [info] Handshake start
+2024-09-11 14:21:30.791 [info] Handshake timing: 28788.990749999997
+2024-09-11 14:21:30.792 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"98a50d3c-df04-4cc7-9df6-0e55f0341720"}
+2024-09-11 14:21:30.793 [info] Starting fast remote sync.
+2024-09-11 14:21:30.793 [info] Total num embeddable files: 11
+2024-09-11 14:21:30.793 [info] Root hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:21:30.793 [info] Starting repository upload from scratch.
+2024-09-11 14:21:30.794 [info] Uploading 11 files.
+2024-09-11 14:22:27.265 [info] Finished indexing repository.
+2024-09-11 14:22:27.265 [info] Indexing job successfully done or aborted.
+2024-09-11 14:24:33.514 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-11 14:24:33.515 [info] Creating merkle client.
+2024-09-11 14:24:33.515 [info] Done creating merkle client.
+2024-09-11 14:24:33.515 [info] Doing a startup handshake.
+2024-09-11 14:24:33.516 [info] Finished initializing merkle tree in 1.1432020000647753 ms.
+2024-09-11 14:24:33.517 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:24:33.518 [info] Handshake start
+2024-09-11 14:24:37.519 [info] Handshake start
+2024-09-11 14:24:45.529 [info] Handshake start
+2024-09-11 14:25:01.532 [info] Handshake start
+2024-09-11 14:25:33.534 [info] Handshake start
+2024-09-11 14:26:37.536 [info] Handshake start
+2024-09-11 14:26:53.591 [info] Handshake timing: 16055.70994500001
+2024-09-11 14:26:53.593 [info] Handshake result: {"status":"STATUS_UP_TO_DATE","repoName":"98a50d3c-df04-4cc7-9df6-0e55f0341720"}
+2024-09-11 14:26:53.593 [info] Starting fast remote sync.
+2024-09-11 14:26:53.593 [info] Total num embeddable files: 11
+2024-09-11 14:26:53.593 [info] Root hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-11 14:26:53.594 [info] Finished indexing repository.
+2024-09-11 14:26:53.594 [info] Indexing job successfully done or aborted.

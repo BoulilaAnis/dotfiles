@@ -1,0 +1,47 @@
+2024-09-11 14:34:29.114 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-11 14:34:29.114 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-11 14:34:29.114 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-11 14:34:29.318 [error] [uncaught exception in main]: SQLITE_CANTOPEN: unable to open database file: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-11 14:34:29.371 [info] Started local extension host with pid 24040.
+2024-09-11 14:34:29.603 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2024-09-11 14:34:29.705 [info] Started local extension host with pid 24072.
+2024-09-11 14:34:31.274 [error] ENOENT: no such file or directory, open '/home/anis/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/anis/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-09-11 14:34:32.681 [info] [perf] Render performance baseline is 25ms
+2024-09-11 14:34:45.523 [error] [failed_precondition] Deprecated: ConnectError: [failed_precondition] Deprecated
+    at Object.V [as unary] (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:22791:11460)
+    at async Object.repositoryStatus (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:266:113456)
+    at async x._getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:21553:8519)
+    at async x.getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:21553:8421)
+    at async x.setRepositoryInfo (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:21549:8713)
+    at async x.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:21549:7159)
+2024-09-11 14:36:57.616 [error] Failed: Server returned 500
+    at ee.F (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:1255:41343)
+    at async ee.D (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:1255:37350)
+    at async ve (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:1255:36234)
+    at async ee.query (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:1255:36568)
+    at async ne.queryGallery (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:22269:15391)
+    at async Je.Sc (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:23172:35018)
+    at async Je.Ac (vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:23172:25701)
+    at async vscode-file://vscode-app/tmp/.mount_cursoriirphd/resources/app/out/vs/workbench/workbench.desktop.main.js:23172:23939
+2024-09-11 14:39:26.884 [error] Failed: Server returned 502
+    at Pe.F (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:125168)
+    at async Pe.D (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:121176)
+    at async Pe.getExtensions (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:117364)
+    at async B (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:13084)
+    at async Y.M (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:13576)
+    at async /tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:6830
+    at async Promise.all (index 0)
+    at async Y.I (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:6617)
+    at async Y.installGalleryExtensions (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:4135)
+    at async Y.installFromGallery (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:3247)
+2024-09-11 14:39:26.899 [error] Server returned 502: Failed: Server returned 502
+    at Pe.F (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:125168)
+    at async Pe.D (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:121176)
+    at async Pe.getExtensions (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:117364)
+    at async B (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:13084)
+    at async Y.M (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:13576)
+    at async /tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:6830
+    at async Promise.all (index 0)
+    at async Y.I (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:6617)
+    at async Y.installGalleryExtensions (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:4135)
+    at async Y.installFromGallery (/tmp/.mount_cursoriirphd/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:3247)
