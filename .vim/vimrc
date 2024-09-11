@@ -1,0 +1,96 @@
+let mapleader = " "
+
+let &t_SI = "\e[6 q"  " I-beam cursor in insert mode
+let &t_SR = "\e[4 q"  " Underline cursor in replace mode
+let &t_EI = "\e[2 q"  " Block cursor in normal mode
+
+call plug#begin()
+
+Plug 'jiangmiao/auto-pairs'
+" Plug 'LunarWatcher/auto-pairs'
+Plug 'airblade/vim-gitgutter'
+Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'preservim/nerdtree'
+call plug#end()
+
+
+filetype plugin on
+let g:airline#extensions#tabline#enabled = 1
+
+set relativenumber
+
+" enable mouse "
+set mouse=a
+
+"enable syntax"
+syntax on
+
+"highlight current line "
+set cursorline
+highlight Cursorline cterm=bold ctermbg=black
+
+"enable highlight search pattern"
+set hlsearch
+
+"enable smartcase search"
+set ignorecase
+set smartcase
+
+set tabstop	    =4
+set softtabstop =4
+set shiftwidth	=4
+set textwidth	=79
+set expandtab
+set autoindent
+
+
+set showmatch
+
+if !has("gui_running")
+    set t_Co=256
+endif
+
+set termguicolors
+
+set background=dark
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
+
+
+
+nnoremap <C-f> :NERDTreeToggle<CR>
+
+
+function! FzyCommand(choice_command, vim_command)
+  try
+    let output = system(a:choice_command . " | fzy ")
+  catch /Vim:Interrupt/
+    " Swallow errors from ^C, allow redraw! below
+  endtry
+  redraw!
+  if v:shell_error == 0 && !empty(output)
+    exec a:vim_command . ' ' . output
+  endif
+endfunction
+
+nnoremap <leader>v :call FzyCommand("find . -type f", ":vs")<cr>
+nnoremap <leader>h :call FzyCommand("find . -type f", ":sp")<cr>
+
+nnoremap <leader>e :call FzyCommand("find ~/ -type f", ":e")<cr>
+nnoremap <leader>V :call FzyCommand("find ~/ -type f", ":vs")<cr>
+nnoremap <leader>H :call FzyCommand("find ~/ -type f", ":sp")<cr>
+
+
+" Remap Ctrl+h/j/k/l to navigate between splits
+nnoremap <C-h> <C-w>h  " Move to the split on the left
+nnoremap <C-j> <C-w>j  " Move to the split below
+nnoremap <C-k> <C-w>k  " Move to the split above
+nnoremap <C-l> <C-w>l  " Move to the split on the right
+
+
+
+
+
