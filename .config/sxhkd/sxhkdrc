@@ -1,0 +1,45 @@
+super + b
+	$BROWSER
+
+super + v
+	$TERMINAL -e nvim
+
+/*super + {equal, minus, BackSpace}*/
+super + {KP_Add, KP_Subtract, BackSpace}
+	$HOME/.scripts/volume.sh {up, down, toggle}
+
+super + m
+	$HOME/.scripts/mount.sh
+
+super + shift + BackSpace
+	$HOME/.scripts/exit.sh
+
+super + f
+    $TERMINAL -e yazi
+
+Print
+    maim "$HOME/Images/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png"
+
+ctrl + Print
+    maim -u -i $(xdotool getactivewindow) "$HOME/Images/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png"
+
+ctrl + shift +  Print
+    maim -s "$HOME/Images/screenshots/$(date +%Y-%m-d_%H-%M-%S).png"
+
+super + Print
+    $HOME/.scripts/screencast
+
+super + p
+	mpv $(xclip -o)
+
+alt + ctrl + shift + d
+    $HOME/.scripts/displayselect
+
+ctrl + shift +d 
+    $HOME/.screenlayout/withMyTv.sh
+
+super + c 
+    cursor
+
+super + q
+    dmenu -C
