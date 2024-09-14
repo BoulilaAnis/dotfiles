@@ -65,9 +65,8 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 bindkey -s '^a' '^uqalc \n'
 
-bindkey -s '^f' '^ucd "$(dirname "$(fzf)")"\n'
 
-bindkey '^[[P' delete-char
+# bindkey '^[[P' delete-char
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
@@ -99,7 +98,7 @@ alias ls='ls --color=auto -h --group-directories-first'
 
 
 
-alias vi='vim'
+alias vi='$EDITOR'
 alias ll='exa -l'
 alias la='exa -la'
 alias yay='yay --color=auto'
@@ -120,7 +119,7 @@ alias mkd="mkdir -pv"
 alias diff="diff --color=auto"
 alias nmcli="nmcli --color=auto"
 alias kf="ps aux | fzf | awk '{print $2}' | xargs kill"
-alias vf='vi $(find . -type f | fzf)'
+alias vf='vi $(find . -type f | fzy)'
 
 # alias nnn='nnn -Rre'
 
@@ -147,3 +146,6 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
+# Created by `pipx` on 2024-09-13 13:55:32
+export PATH="$PATH:/home/anis/.local/bin"

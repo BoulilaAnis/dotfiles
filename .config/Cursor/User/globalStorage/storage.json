@@ -4,7 +4,9 @@
         "workspaces": {
             "file:///home/anis/.cursor-tutor": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1726145861709": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -12,12 +14,12 @@
     "telemetry.devDeviceId": "2396b07d-8e11-4fb9-b879-ff787166f7c1",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/anis/.cursor-tutor"
+                "backupFolder": "1726145861709"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "theme": "vs-dark",
     "themeBackground": "#222222",
@@ -39,21 +41,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 0,
-            "sideBarWidth": 205,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/anis/.cursor-tutor",
-            "backupPath": "/home/anis/.config/Cursor/Backups/42ba03c9c4863fd25690d96000feebe6",
+            "backupPath": "/home/anis/.config/Cursor/Backups/1726145861709",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 20,
-                "width": 1368,
-                "height": 750
+                "x": 6,
+                "y": 817,
+                "width": 744,
+                "height": 736
             }
         },
         "openedWindows": []

@@ -2,7 +2,7 @@ super + b
 	$BROWSER
 
 super + v
-	$TERMINAL -e nvim
+	$TERMINAL -e $EDITOR
 
 /*super + {equal, minus, BackSpace}*/
 super + {KP_Add, KP_Subtract, BackSpace}
