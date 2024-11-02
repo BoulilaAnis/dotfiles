@@ -2,11 +2,11 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/anis/.cursor-tutor": "__default__profile__"
+            "file:///home/anis/.cursor-tutor": "__default__profile__",
+            "file:///home/anis/Programming/React": "__default__profile__",
+            "file:///home/anis/Programming/js": "__default__profile__"
         },
-        "emptyWindows": {
-            "1726145861709": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -14,12 +14,12 @@
     "telemetry.devDeviceId": "2396b07d-8e11-4fb9-b879-ff787166f7c1",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1726145861709"
+                "folderUri": "file:///home/anis/Programming/js"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "theme": "vs-dark",
     "themeBackground": "#222222",
@@ -33,28 +33,29 @@
             "titleBarBackground": "#191919",
             "activityBarBackground": "#131313",
             "sideBarBackground": "#191919",
-            "statusBarBackground": "#191919",
-            "statusBarNoFolderBackground": "#191919"
+            "statusBarBackground": "#5f0000",
+            "statusBarNoFolderBackground": "#5f0000"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "sideBarWidth": 205,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/anis/.config/Cursor/Backups/1726145861709",
+            "folder": "file:///home/anis/Programming/js",
+            "backupPath": "/home/anis/.config/Cursor/Backups/0a5f4a8aa573aa08a1c67009e755ea40",
             "uiState": {
                 "mode": 1,
-                "x": 6,
-                "y": 817,
-                "width": 744,
-                "height": 736
+                "x": 0,
+                "y": 811,
+                "width": 1368,
+                "height": 750
             }
         },
         "openedWindows": []

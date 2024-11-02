@@ -20,6 +20,7 @@ image/png=sxiv.desktop
 image/gif=sxiv.desktop
 image/bmp=sxiv.desktop
 image/tiff=sxiv.desktop
+image/webp=sxiv.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Zen Browser-LKDTT2.desktop;userapp-Zen Browser-1N7HT2.desktop;userapp-Zen Browser-OQILT2.desktop;userapp-Zen Browser-CRU9T2.desktop;userapp-Zen Browser-XU66T2.desktop;userapp-Zen Browser-ZGX1T2.desktop;userapp-Zen Browser-8S32T2.desktop;

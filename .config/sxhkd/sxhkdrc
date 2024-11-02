@@ -39,7 +39,7 @@ ctrl + shift +d
     $HOME/.screenlayout/withMyTv.sh
 
 super + c 
-    cursor
+    code
 
 super + q
     dmenu -C

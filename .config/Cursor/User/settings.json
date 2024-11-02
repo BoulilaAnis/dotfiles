@@ -1,5 +1,18 @@
 {
     "window.commandCenter": 1,
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons"
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "vim.neovimPath": "/sbin/nvim",
+    "vim.neovimUseConfigFile": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vim/vimrc",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "editor.fontFamily": "SourceCodePro, 'monospace', monospace",
+    "files.autoSave": "afterDelay"
 }
