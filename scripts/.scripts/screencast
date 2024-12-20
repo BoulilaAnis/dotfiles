@@ -1,0 +1,39 @@
+#!/bin/bash
+
+output_dir="$HOME/Videos/Recordings"
+date_format="%Y-%m-%d_%H-%M-%S"
+output_file="$output_dir/recording_$(date +$date_format).mkv"
+status_file="/tmp/recording_status.txt"
+
+# Function to get the total resolution when using multiple monitors
+get_resolution() {
+    xrandr | grep ' connected' | awk '
+    {
+        split($3, pos, "+");
+        split(pos[1], res, "x");
+        width += res[1];
+        if (res[2] > max_height) {
+            max_height = res[2];
+        }
+    }
+    END {
+        print width "x" max_height;
+    }'
+}
+
+# Check if ffmpeg process is running
+if pgrep -x "ffmpeg" > /dev/null
+then
+    # Stop recording
+    pkill -f "ffmpeg"
+    echo " " > "$status_file"
+else
+    # Start recording
+    resolution=$(get_resolution)
+    notify-send "Detected resolution: $resolution"
+    ffmpeg -y -f x11grab -video_size "$resolution" -framerate 30 -i :0.0 -f pulse -ac 2 -i default -c:v libx264 -preset ultrafast -c:a aac -b:a 128k "$output_file" &
+    echo "[ Recording ]" > "$status_file"
+    # Send signal to slstatus to refresh status
+    # pkill -RTMIN+12 -x slstatus
+fi
+
