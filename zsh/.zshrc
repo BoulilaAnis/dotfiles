@@ -1,6 +1,7 @@
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/nnn/nnn" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/nnn/nnn"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/bindkeyrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/bindkeyrc"
 
 
 # The following lines were added by compinstall

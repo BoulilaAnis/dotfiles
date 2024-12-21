@@ -12,8 +12,8 @@ alias \
       alias mv='mv -i'
       alias rm='rm -i'
 
-      alias df='df -h'     # human-readable sizes
-      alias free='free -m' # show sizes in MB
+      alias df='df -h' 
+      alias free='free -m'
       alias exa="exa -t=mod --time-style=default --sort=type --git"
       alias vi='$EDITOR'
       alias ll='exa -l'
@@ -37,11 +37,11 @@ alias \
       alias mkd="mkdir -pv"
       alias diff="diff --color=auto"
       alias nmcli="nmcli --color=auto"
-      alias kf="ps aux | fzf | awk '{print $2}' | xargs kill"
-      alias vff='$EDITOR $(find . -type f | fzf)'
-      alias vf='$EDITOR -o `fzf`'
-      
-      alias nnn='nnn -Rr'
+alias \
+      alias kf="ps aux | fzy | awk '{print $2}' | xargs kill"
+      alias vf='$EDITOR $(find . -type f | fzy)'
+      alias vff='$EDITOR $(find ~/ -type f | fzy)'
+      alias fcd='cd $(find ~/ -type d | fzy)'
       
 alias \ 
       alias gb="git branch"
