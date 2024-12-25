@@ -1,0 +1,53 @@
+#!/bin/sh
+
+alias \
+      alias man="batman"
+      alias grep='grep --color=auto'
+      alias grep='grep --color=auto'
+      alias egrep='egrep --color=auto'
+      alias fgrep='fgrep --color=auto'
+
+alias \
+      alias cp="cp -i"
+      alias mv='mv -i'
+      alias rm='rm -i'
+
+      alias df='df -h' 
+      alias free='free -m'
+      alias exa="exa -t=mod --time-style=default --sort=type --git"
+      alias vi='$EDITOR'
+      alias ll='exa -l'
+      alias la='exa -la'
+      alias ls='ls --color=auto -h --group-directories-first'
+      
+alias \
+      alias i='sudo pacman -S'
+      alias u='sudo pacman -Syu'
+      alias q='sudo pacman -Ss'
+      alias r='sudo pacman -Rns'
+      alias yay='yay --color=auto'
+alias \ 
+      # alias tree='tree -C --du -h'
+      alias tree='exa -T'
+      alias catt='bat'
+      alias cat='bat -pp'
+      alias cp="cp -iv"
+      alias mv="mv -iv"
+      alias rm="rm -vI"
+      alias mkd="mkdir -pv"
+      alias diff="diff --color=auto"
+      alias nmcli="nmcli --color=auto"
+alias \
+      alias kf="ps aux | fzf --height=15 --layout=reverse --border=rounded | awk '{print $2}' | xargs kill"
+      alias vf='$EDITOR $(find . -type f | fzf --height=15 --layout=reverse --border=rounded)'
+      alias vff='$EDITOR $(find ~/ -type f | fzf --height=15 --layout=reverse --border=rounded)'
+      alias fcd='cd $(find ~/ -type d | fzf --height=15 --layout=reverse --border=rounded)'
+      
+alias \ 
+      alias gb="git branch"
+      alias gc="git commit -m"
+      alias ga="git add"
+      alias gl="git log --all --graph"
+      alias gs="git status"
+      alias gp="git push -u"
+      alias gch="git checkout"

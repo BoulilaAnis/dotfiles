@@ -1,0 +1,50 @@
+super + b
+	$BROWSER
+
+super + v
+	$TERMINAL -e $EDITOR
+
+/*super + {equal, minus, BackSpace}*/
+{XF86AudioRaiseVolume,  XF86AudioLowerVolume, XF86AudioMute}
+	$HOME/.scripts/volume.sh {up, down, toggle}
+
+{XF86MonBrightnessDown, XF86MonBrightnessUp}
+    $HOME/.scripts/brightness.sh {down, up}
+
+super + m
+	$HOME/.scripts/mount.sh
+
+super + shift + BackSpace
+	$HOME/.scripts/exit.sh
+
+super + f
+    $TERMINAL -e yazi
+
+alt + f
+    nemo
+Print
+    maim "$HOME/Pictures/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png"
+
+ctrl + Print
+    maim -u -i $(xdotool getactivewindow) "$HOME/Pictures/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png"
+
+ctrl + shift +  Print
+    maim -s "$HOME/Pictures/screenshots/$(date +%Y-%m-d_%H-%M-%S).png"
+
+super + Print
+    $HOME/.scripts/screencast
+
+super + p
+	mpv $(xclip -o)
+
+alt + ctrl + shift + d
+    $HOME/.scripts/displayselect
+
+ctrl + shift +d 
+    $HOME/.screenlayout/tv.sh
+
+super + c 
+    codium
+
+super + q
+    dmenu -C
